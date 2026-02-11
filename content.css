@@ -1,0 +1,169 @@
+/* WhatsApp Web Blur Extension - Content Styles */
+
+/* Chat messages - text content */
+body:not(.blur-disabled) [data-pre-plain-text],
+body:not(.blur-disabled) .message-in .copyable-text,
+body:not(.blur-disabled) .message-out .copyable-text,
+body:not(.blur-disabled) ._11JPr,
+body:not(.blur-disabled) .copyable-text span,
+body:not(.blur-disabled) ._akbu {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) [data-pre-plain-text]:hover,
+body:not(.blur-disabled) .message-in .copyable-text:hover,
+body:not(.blur-disabled) .message-out .copyable-text:hover,
+body:not(.blur-disabled) ._11JPr:hover,
+body:not(.blur-disabled) .copyable-text span:hover,
+body:not(.blur-disabled) ._akbu:hover {
+  filter: none;
+}
+
+/* Contact names in sidebar */
+body:not(.blur-disabled) ._21S-L,
+body:not(.blur-disabled) .ggj6brxn,
+body:not(.blur-disabled) ._8nE1Y,
+body:not(.blur-disabled) span[dir="auto"][title],
+body:not(.blur-disabled) ._19RFN {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) ._21S-L:hover,
+body:not(.blur-disabled) .ggj6brxn:hover,
+body:not(.blur-disabled) ._8nE1Y:hover,
+body:not(.blur-disabled) span[dir="auto"][title]:hover,
+body:not(.blur-disabled) ._19RFN:hover {
+  filter: none;
+}
+
+/* Chat header - contact/phone/group name when chat is open */
+/* Group/Contact name (main title) */
+body:not(.blur-disabled) span[dir="auto"].x1iyjqo2.x6ikm8r.x10wlt62._ao3e,
+body:not(.blur-disabled) span.x1n2onr6._ao3e,
+body:not(.blur-disabled) span[dir="auto"].x1iyjqo2.x6ikm8r.x10wlt62,
+/* Phone numbers and participant list (subtitle) */
+body:not(.blur-disabled) span[data-testid="selectable-text"].copyable-text._aupe,
+body:not(.blur-disabled) span.copyable-text._ao3e._aupe,
+body:not(.blur-disabled) span[data-testid="selectable-text"][title*="+"],
+/* Fallback selectors for compatibility */
+body:not(.blur-disabled) ._2jIsa,
+body:not(.blur-disabled) ._19vo_,
+body:not(.blur-disabled) div[role="button"][data-tab] span[dir="auto"].x1iyjqo2 {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) span[dir="auto"].x1iyjqo2.x6ikm8r.x10wlt62._ao3e:hover,
+body:not(.blur-disabled) span.x1n2onr6._ao3e:hover,
+body:not(.blur-disabled) span[dir="auto"].x1iyjqo2.x6ikm8r.x10wlt62:hover,
+body:not(.blur-disabled) span[data-testid="selectable-text"].copyable-text._aupe:hover,
+body:not(.blur-disabled) span.copyable-text._ao3e._aupe:hover,
+body:not(.blur-disabled) span[data-testid="selectable-text"][title*="+"]:hover,
+body:not(.blur-disabled) ._2jIsa:hover,
+body:not(.blur-disabled) ._19vo_:hover,
+body:not(.blur-disabled) div[role="button"][data-tab] span[dir="auto"].x1iyjqo2:hover {
+  filter: none;
+}
+
+/* Sender/contact name in sidebar chat list items */
+body:not(.blur-disabled) span[dir="auto"].x1rg5ohu._ao3e,
+body:not(.blur-disabled) span[aria-label*="Maybe"]._ao3e,
+body:not(.blur-disabled) span[dir="auto"][aria-label].x1rg5ohu {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) span[dir="auto"].x1rg5ohu._ao3e:hover,
+body:not(.blur-disabled) span[aria-label*="Maybe"]._ao3e:hover,
+body:not(.blur-disabled) span[dir="auto"][aria-label].x1rg5ohu:hover {
+  filter: none;
+}
+
+/* Sender name in group chat messages */
+body:not(.blur-disabled) span[dir="auto"]._ahxt.x1ypdohk.xt0b8zv._ao3e,
+body:not(.blur-disabled) span._ahxt.x1ypdohk._ao3e,
+body:not(.blur-disabled) span[dir="auto"]._ahxt {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) span[dir="auto"]._ahxt.x1ypdohk.xt0b8zv._ao3e:hover,
+body:not(.blur-disabled) span._ahxt.x1ypdohk._ao3e:hover,
+body:not(.blur-disabled) span[dir="auto"]._ahxt:hover {
+  filter: none;
+}
+
+/* Profile pictures and avatars */
+body:not(.blur-disabled) img[src*="blob:"],
+body:not(.blur-disabled) ._1WliW,
+body:not(.blur-disabled) .x1m2nkff,
+body:not(.blur-disabled) img[alt*="profile"],
+body:not(.blur-disabled) div[role="img"] img {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) img[src*="blob:"]:hover,
+body:not(.blur-disabled) ._1WliW:hover,
+body:not(.blur-disabled) .x1m2nkff:hover,
+body:not(.blur-disabled) img[alt*="profile"]:hover,
+body:not(.blur-disabled) div[role="img"] img:hover {
+  filter: none;
+}
+
+/* Media - images and videos in chats */
+body:not(.blur-disabled) ._1JVSX,
+body:not(.blur-disabled) .r3vJo,
+body:not(.blur-disabled) ._2UaNq,
+body:not(.blur-disabled) img._2Zi_m,
+body:not(.blur-disabled) video {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) ._1JVSX:hover,
+body:not(.blur-disabled) .r3vJo:hover,
+body:not(.blur-disabled) ._2UaNq:hover,
+body:not(.blur-disabled) img._2Zi_m:hover,
+body:not(.blur-disabled) video:hover {
+  filter: none;
+}
+
+/* Status text and last message preview in sidebar - ENHANCED */
+body:not(.blur-disabled) ._1gPb4,
+body:not(.blur-disabled) ._3j7s9,
+body:not(.blur-disabled) .matched-text,
+body:not(.blur-disabled) ._22h_0,
+body:not(.blur-disabled) span.x1iyjqo2.x6prxxf,
+body:not(.blur-disabled) ._11JPr.selectable-text,
+body:not(.blur-disabled) [data-testid="last-msg-text"],
+body:not(.blur-disabled) .x1hx0egp.x6ikm8r,
+body:not(.blur-disabled) ._3Ke8P span,
+body:not(.blur-disabled) ._1Gy50,
+body:not(.blur-disabled) [data-testid*="cell"] ._11JPr,
+body:not(.blur-disabled) div[role="listitem"] span.x1iyjqo2 {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+body:not(.blur-disabled) ._1gPb4:hover,
+body:not(.blur-disabled) ._3j7s9:hover,
+body:not(.blur-disabled) .matched-text:hover,
+body:not(.blur-disabled) ._22h_0:hover,
+body:not(.blur-disabled) span.x1iyjqo2.x6prxxf:hover,
+body:not(.blur-disabled) ._11JPr.selectable-text:hover,
+body:not(.blur-disabled) [data-testid="last-msg-text"]:hover,
+body:not(.blur-disabled) .x1hx0egp.x6ikm8r:hover,
+body:not(.blur-disabled) ._3Ke8P span:hover,
+body:not(.blur-disabled) ._1Gy50:hover,
+body:not(.blur-disabled) [data-testid*="cell"] ._11JPr:hover,
+body:not(.blur-disabled) div[role="listitem"] span.x1iyjqo2:hover {
+  filter: none;
+}
+
+/* When blur is disabled, ensure no blur is applied */
+body.blur-disabled * {
+  filter: none !important;
+}
